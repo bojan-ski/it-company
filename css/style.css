@@ -83,3 +83,26 @@ p{
         transform: rotate(360deg);
     }
 }
+
+/* section portfolio */
+#portfolio .portfolio-item .portfolio-caption{
+    font-family: "Anton", sans-serif;
+    left: 30px;
+    right: 30px;
+    bottom: 48px;
+    display: none;
+}
+
+#portfolio .portfolio-item:hover .portfolio-caption{
+    display: block;
+}
+
+#portfolio .portfolio-item img{
+    width: 100%;
+    display: block;
+    transition: .5s linear;
+}
+
+#portfolio .portfolio-item:hover img{
+    transform: scale(1.2);
+}
