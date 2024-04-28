@@ -13,6 +13,10 @@ body{
     color: #2c2d3c;
 }
 
+main{
+    padding-top: 100px;
+}
+
 img{
     max-width: 100%;
 }
@@ -52,7 +56,6 @@ p{
     letter-spacing: .53px;
     color: #a8a8a8;
     text-align: center;
-    text-transform: capitalize;
     border-top: 2px solid transparent;
 }
 
@@ -61,3 +64,8 @@ p{
     color:#1085EA ;
     border-top: 2px solid #1085EA;
 }
+
+/* MAIN */
+/* section home */
+
+/* section about */

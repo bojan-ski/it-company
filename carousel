@@ -1,0 +1,71 @@
+        <!-- section home start -->
+        <section id="home" class="lead-section mb-5">
+            <div class="container">
+
+                <div id="home-carousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <!-- carousel item 1 -->
+                        <div class="carousel-item active">
+                            <div class="carousel-content">
+                                <h1 class="text-lowercase mb-5">
+                                    Online business for your company
+                                </h1>
+                                <p class="mb-5">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium sint est, enim
+                                    voluptatum rem, mollitia obcaecati aut dolorum fugit voluptates quae deleniti magnam
+                                    eum exercitationem, laboriosam eaque nisi! Eos, asperiores.
+                                </p>
+                                <a href="#" class="btn btn-primary text-uppercase text-white rounded-pill px-4">
+                                    Learn more
+                                </a>
+                            </div>
+                        </div>
+                        <!-- carousel item 2 -->
+                        <div class="carousel-item">
+                            <div class="carousel-content">
+                                <h1 class="text-lowercase mb-5">
+                                    Online business for your company
+                                </h1>
+                                <p class="mb-5">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium sint est, enim
+                                    voluptatum rem, mollitia obcaecati aut dolorum fugit voluptates quae deleniti magnam
+                                    eum exercitationem, laboriosam eaque nisi! Eos, asperiores.
+                                </p>
+                                <a href="#" class="btn btn-primary text-uppercase text-white rounded-pill px-4">
+                                    Learn more
+                                </a>
+                            </div>
+                        </div>
+                        <!-- carousel item 3 -->
+                        <div class="carousel-item">
+                            <div class="carousel-content">
+                                <h1 class="text-lowercase mb-5">
+                                    Online business for your company
+                                </h1>
+                                <p class="mb-5">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium sint est, enim
+                                    voluptatum rem, mollitia obcaecati aut dolorum fugit voluptates quae deleniti magnam
+                                    eum exercitationem, laboriosam eaque nisi! Eos, asperiores.
+                                </p>
+                                <a href="#" class="btn btn-primary text-uppercase text-white rounded-pill px-4">
+                                    Learn more
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#home-carousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#home-carousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </div>
+        </section>
+        <!-- section home end -->
