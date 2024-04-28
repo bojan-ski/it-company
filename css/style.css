@@ -69,3 +69,17 @@ p{
 /* section home */
 
 /* section about */
+
+/* section services */
+#services .services-item img{
+    animation: roll 3s infinite;
+}
+
+@keyframes roll {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
