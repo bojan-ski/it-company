@@ -1,0 +1,13 @@
+@media(min-width: 992px) {
+    /* HEADER */
+    .navbar-light .navbar-nav .nav-link{
+        padding: 24px 0 24px 0;
+        margin-left: 68px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container{
+        width: 1170px;
+    }
+}
