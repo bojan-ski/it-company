@@ -50,26 +50,24 @@ p{
     color: #1085ea;
 }
 
+.btn:active{
+    transform: scale(0.95);
+}
+
 /* HEADER/NAVBAR */
 .navbar-light .navbar-nav .nav-link{
     line-height: 19px;
     letter-spacing: .53px;
     color: #a8a8a8;
     text-align: center;
-    border-top: 2px solid transparent;
 }
 
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link:hover{
     color:#1085EA ;
-    border-top: 2px solid #1085EA;
 }
 
 /* MAIN */
-/* section home */
-
-/* section about */
-
 /* section services */
 #services .services-item img{
     animation: roll 3s infinite;

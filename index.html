@@ -20,7 +20,7 @@
 
     <!-- STYLE/CSS -->
     <!-- bootstrap -->
-    <link rel="stylesheet" href="./css//bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
 
     <!-- custom css -->
     <link rel="stylesheet" href="./css/style.css">
@@ -41,15 +41,15 @@
                     <img src="images/logo.png" alt="logo-img">
                 </a>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-menu"
-                    aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu"
+                    aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse" id="main-menu">
+                <div class="collapse navbar-collapse" id="mainMenu">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link text-capitalize" href="#">home</a>
+                            <a class="nav-link active text-capitalize" href="#">home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-capitalize" href="#about">About Us</a>
@@ -75,7 +75,73 @@
 
         <!-- section home start -->
         <section id="home" class="lead-section mb-5">
+            <div id="home-carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- carousel item 1 -->
+                    <div class="carousel-item active">
+                        <div class="container">
+                            <div class="carousel-content">
+                                <h1 class="text-lowercase mb-5">
+                                    Online business for your company
+                                </h1>
+                                <p class="mb-5">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium sint est, enim
+                                    voluptatum rem, mollitia obcaecati aut dolorum fugit voluptates quae deleniti magnam
+                                    eum exercitationem, laboriosam eaque nisi! Eos, asperiores.
+                                </p>
+                                <a href="#" class="btn btn-primary text-uppercase text-white rounded-pill px-4">
+                                    Learn more
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- carousel item 2 -->
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="carousel-content">
+                                <h1 class="text-lowercase mb-5">
+                                    Online business for your company
+                                </h1>
+                                <p class="mb-5">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium sint est, enim
+                                    voluptatum rem, mollitia obcaecati aut dolorum fugit voluptates quae deleniti magnam
+                                    eum exercitationem, laboriosam eaque nisi! Eos, asperiores.
+                                </p>
+                                <a href="#" class="btn btn-primary text-uppercase text-white rounded-pill px-4">
+                                    Learn more
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- carousel item 3 -->
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="carousel-content">
+                                <h1 class="text-lowercase mb-5">
+                                    Online business for your company
+                                </h1>
+                                <p class="mb-5">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium sint est, enim
+                                    voluptatum rem, mollitia obcaecati aut dolorum fugit voluptates quae deleniti magnam
+                                    eum exercitationem, laboriosam eaque nisi! Eos, asperiores.
+                                </p>
+                                <a href="#" class="btn btn-primary text-uppercase text-white rounded-pill px-4">
+                                    Learn more
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
+                <button class="carousel-control-prev" type="button" data-bs-target="#home-carousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#home-carousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
         </section>
         <!-- section home end -->
 
@@ -277,19 +343,20 @@
                         <form class="contact-form" method="POST">
                             <div class="form-group mb-2">
                                 <input type="text" name="name" placeholder="Enter your name"
-                                    class="form-control bg-transparent">
+                                    class="form-control bg-transparent text-white">
                             </div>
                             <div class="form-group mb-2">
                                 <input type="email" name="email" placeholder="Enter your email"
-                                    class="form-control bg-transparent">
+                                    class="form-control bg-transparent text-white">
                             </div>
                             <div class="form-group mb-2">
-                                <textarea class="form-control bg-transparent" name="message" cols="30" rows="6"
-                                    placeholder="Enter your message"></textarea>
+                                <textarea class="form-control bg-transparent text-white" name="message" cols="30"
+                                    rows="6" placeholder="Enter your message"></textarea>
                             </div>
 
                             <div class="form-group text-end">
-                                <button class="btn send-btn bg-primary text-uppercase text-white px-5 rounded-pill" type="submit">
+                                <button class="btn send-btn bg-primary text-uppercase text-white px-5 rounded-pill"
+                                    type="submit">
                                     SUBMIT
                                 </button>
                             </div>
@@ -304,7 +371,7 @@
     <!-- main end -->
 
     <!-- footer start -->
-    <footer id="footer" class="py-sm-2 py-0">
+    <footer id="footer" class="py-sm-3 py-0">
         <div class="container d-sm-flex align-items-sm-center justify-content-sm-between">
             <a href="#" class="footer-logo">
                 <img src="./images/logo_footer.png" alt="footer-logo-img">
@@ -315,6 +382,12 @@
         </div>
     </footer>
     <!-- footer end -->
+
+    <!-- JS - bootstrap  -->
+    <script src="js/bootstrap.bundle.js"></script>
+
+    <!-- JS  -->
+    <script src="js/app.js"></script>
 
 </body>
 
